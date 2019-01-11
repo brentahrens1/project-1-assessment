@@ -1,0 +1,53 @@
+section {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    margin-top: 50px; 
+
+}
+
+#result {
+    margin-bottom: 60px; 
+    font-size: 70px; 
+}
+
+input {
+    text-align: center; 
+    width: 90px; 
+    border: 4px solid #A9A9A9; 
+    border-radius: 5px; 
+    font-size: 30px; 
+    outline: none; 
+}
+
+main {
+    display: flex; 
+    flex-direction: row; 
+}
+
+#plus {
+    width: 70px; 
+    height: 70px; 
+    padding: 10px; 
+    margin-right: 10px; 
+    background-color: #A9A9A9; 
+    border-radius: 5px; 
+    color: white; 
+    font-size: 30px; 
+    text-align: center; 
+    outline: none; 
+}
+
+#minus {
+    width: 70px; 
+    height: 70px; 
+    padding: 10px; 
+    margin-left: 10px; 
+    background-color: #A9A9A9; 
+    border-radius: 5px; 
+    color: white; 
+    font-size: 30px; 
+    text-align: center; 
+    outline: none; 
+}
